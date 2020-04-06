@@ -1,0 +1,7 @@
+#!/bin/bash
+source ../venv-pyEG/bin/activate
+cd doc
+make clean
+make html
+make epub
+rm -Rvf ../__pycache__
